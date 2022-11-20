@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Panet et~al.(2014)Panet, Pajot-M{\'e}tivier, Greff-Lefftz,
+  M{\'e}tivier, Diament \& Mandea}]{panet2014mapping}
+\bibinfo{author}{Panet, I.}, \bibinfo{author}{Pajot-M{\'e}tivier, G.},
+  \bibinfo{author}{Greff-Lefftz, M.}, \bibinfo{author}{M{\'e}tivier, L.},
+  \bibinfo{author}{Diament, M.}, \& \bibinfo{author}{Mandea, M.}
+  (\bibinfo{year}{2014}).
+\newblock \bibinfo{title}{Mapping the mass distribution of earth's mantle using
+  satellite-derived gravity gradients}.
+\newblock {\it \bibinfo{journal}{Nature Geoscience}\/},  {\it
+  \bibinfo{volume}{7}\/}, \bibinfo{pages}{131}.
+
+\end{thebibliography}
